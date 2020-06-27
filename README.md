@@ -1,6 +1,6 @@
 # Molecule testing example for testing an Ansible playbook
 
-This is an example of how to set up molecule to test a playbook rather than a role.
+This is an example of how to set up molecule to test a playbook rather than a role. Based off video from geerlingguy
 
 > This is configured to use docker as the driver
 
@@ -32,3 +32,7 @@ molecule lint
 The project is setup in away that you can swap out the OS of a container with an environment variable
 
 `MOLECULE_DISTRO=debian10 molecule converge` to run tests against a  debian10 based container.
+
+## Example run
+
+[![asciicast](https://asciinema.org/a/usiHI9djiwmQHZD7ouzsctJ9y.svg)](https://asciinema.org/a/usiHI9djiwmQHZD7ouzsctJ9y)
