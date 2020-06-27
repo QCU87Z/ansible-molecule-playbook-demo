@@ -1,5 +1,7 @@
 # Molecule testing example for testing an Ansible playbook
 
+![CI](https://github.com/QCU87Z/ansible-molecule-playbook-demo/workflows/CI/badge.svg)
+
 This is an example of how to set up molecule to test a playbook rather than a role. Based off video from geerlingguy
 
 > This is configured to use docker as the driver
